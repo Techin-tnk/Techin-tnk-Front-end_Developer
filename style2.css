@@ -1,0 +1,15 @@
+
+body {
+    background-color: black;
+    color: white;
+    margin: 5%;
+    padding: 0%;
+}
+div {
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+img {
+    width: 200%;
+}
