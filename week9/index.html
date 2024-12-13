@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/week9/style.css">
+        <title>เเบบฟอร์ม</title>
+    </head>
+    <body>
+        <h1>เเบบฟอร์มสมัครงาน</h1>
+        <form>
+            ชื่อ-นามสกุล <input type="text" name="user" placeholder="กรุณาใส่ชื่อผู้ใช้"><br>
+            <input type="radio" name="sex" value="men">  เพศชาย
+            <input type="radio" name="sex" value="women">เพศหญิง
+            <input type="radio" name="sex" value="alternative gender">เพศทางเลือก<br>
+            ภาษาโปรเเกรมที่ถนัด<br><input type="checkbox" name="program" value="py">ถนัด Python <br>
+            <input type="checkbox" name="program" value="c">ถนัด C++ <br>
+            <input type="checkbox" name="program" value="java">ถนัด Java <br>
+            <input type="checkbox" name="program" value="html css">ถนัด HTML CSS <br>
+            อีเมล <input type="text" name="info" placeholder="กรอกอีเมล"><br>
+            เบอร์โทรศัพท์ <input type="text" name="number" placeholder="กรอกเบอร์โทรศัพท์"><br>
+            ตำเเหน่งที่ต้องการสมัคร <select>
+                <option value="none">-- เลือกตำเเหน่ง --</option>
+                <option value="program developer">นักพัฒนาโปรเเกรม</option>
+                <option value="designer">นักออกเเบบ</option>
+                <option value="manager">ผู้จัดการ</option>
+            </select><br>
+            อัพโหลดเรซูเม่ <button>เลือกไฟล์</button> <br>
+            ข้อความเพิ่มเติม<br><textarea placeholder="กรอกข้อความเพิ่มเติม" name="detail"></textarea><br>
+            <input type="submit" value="ส่งใบสมัคร">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+body {
+    background-color: pink;
+    color: black;
+}
+section {
+    display: inline-flex;
+    margin: 0px 10px -10px;
+}
