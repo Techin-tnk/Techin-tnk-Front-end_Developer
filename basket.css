@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "FC_Quantum_Non-commercial";
+    src: url(font/FC_Quantum_Non-commercial.ttf);
+}
+* {
+    font-family: "FC_Quantum_Non-commercial";
+}
+body {
+    background-color: #FFFFFF;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    margin-bottom: 40px;
+}
+#section-1 {
+    background-color: #ACA6A6;
+    height: 40px;
+}
+#section-2 {
+    background-color: #FFFFFF;
+    padding: 5px 20px;
+    display: flex;
+}
+#section-2 div {
+    margin: 3px 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#section-2 img {
+    width: 140px;
+    height: 80px;
+    object-fit: cover;
+    position: relative;
+    right: 6px;
+    top: 5px;
+    transform: scale(1.9);
+}
+#section-2 p {
+    margin: 0%;
+}
+#section-3 {
+    background-color: #EDEDED;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#section-3 img {
+    width: 130px;
+    height: 130px;
+}
+#div-1 {
+    flex-grow: 1;
+}
+#div-2 {
+    display: flex;
+    justify-content: space-between;
+}
+form {
+    position: fixed;
+    width: 100%;
+    bottom: 90px;
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: #E0C56E;
+    width: 14%;
+    height: 50px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover {
+    background-color: #f5da81;
+}
