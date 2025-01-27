@@ -1,43 +1,116 @@
-<!DOCTYPE html> 
-<html lang="th"></html>
+<!DOCTYPE html>
+<html lang="th">
 <head>
-<title>Shop pleun</title>
+    <meta charset="UTF-8">
+    <title>Shop Pleun</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #e8f9f5;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        header .logo img {
+            height: 50px;
+        }
+
+        header .search-bar input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+
+        header .actions a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+
+        .hero .banner {
+            position: relative;
+            flex: 2;
+            text-align: center;
+        }
+
+        .new-products .items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+    </style>
 </head>
-<body style="margin: 0; padding: 0;">
-    <header style="background-color: rgb(100, 174, 162);">
-        <div style="text-align: right;">
-            <right>
-                สมัครสมาชิก
-                เข้าสู่ระบบ
-                การเเจ้งเตือน
-                ช่วยเหลือ
-            </right>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/week4/imghtml/week4/โลโก้.png">
+        <div class="logos">
+            <img src="/week4/imghtml/week4/Black & White Minimalist Business Logo-Photoroom.png">
         </div>
-        <div>
-                <img src="/week4/imghtml/week4/โลโก้.png" width="100px">
-                <img src="/week4/imghtml/week4/Black & White Minimalist Business Logo-Photoroom.png" height="200px">
-            <center>
-                <img src="/week4/imghtml/week4/เเว่นขยาย.png" width="15px">
-                <input type="text" placeholder="ค้นหาสินค้า">
-            </center>
+        <div class="search-bar">
+            <input type="text" placeholder="ค้นหาสินค้า">
+        </div>
+        <div class="actions">
+            <a href=>เข้าสู่ระบบ</a>
+            <a href=>สมัครสมาชิก</a>
+            <a href=>การเเจ้งเตือน</a>
+            <a href=>ช่วยเหลือ</a>
+        </div>
         </div>
     </header>
-    <style>
-        .box {
-            width: 1100px;
-            height: 500px;
-            background-color: rgb(500, 140, 187);   
-        }    
-        </style>
-        <div class="box"></div>
-    <section>
-        <p> ลด 20% </p>  
-    </section>
-    <section>
-        สินค้าใหม่ล่าสุด
-        <p> สินค้าตัวที่ 1</p>
-    </section>
-</body>
-<footer>
 
-</footer>
+    <div class="hero">
+        <div class="banner">
+            <img src="/week4/imghtml/week4/Screenshot 2025-01-27 230341.png">
+        </div>
+    </div>
+
+    <div class="new-products">
+        <h2>สินค้าใหม่ล่าสุด</h2>
+        <div class="items">
+            <div class="item">
+                <img src="/week4/imghtml/week4/Screenshot 2025-01-27 231717.png">
+                <p>Sauvage</p>
+            </div>
+            <div class="item">
+                <img src="/week4/imghtml/week4/Screenshot 2025-01-27 231834.png">
+                <p>PRO X 60</p>
+            </div>
+            <div class="item">
+                <img src="/week4/imghtml/week4/Screenshot 2025-01-27 231933.png">
+                <p>Pro x superlight</p>
+            </div>
+            <div class="item">
+                <img src="/week4/imghtml/week4/Screenshot 2025-01-27 232001.png">
+                <p>Adidas Bag</p>
+            </div>
+            <div class="item">
+                <img src="/week4/imghtml/week4/Screenshot 2025-01-27 232225.png" >
+                <p>Running Shoes</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
